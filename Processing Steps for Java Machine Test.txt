@@ -1,0 +1,46 @@
+Processing Steps:
+
+1. Created BankAcc Class in com.nissan.bean package
+
+  a. created all the instance variables like accNo, cusName,accType,balance ,
+    mobNo,emailId, atmpin, pancard and static minimum balance with value = 1000
+ 
+  b. created default and parameterized constructor
+
+  c. implemented getters and setters
+ 
+  d. implemented toString method
+
+2. Created BankMt Class in com.nissan.bean package
+
+  a. Created arraylist which stores customers account
+  
+  b. static random object and scanner for user input
+
+  c. created auto generated method for account number and pin
+
+  d. implemented all the methods :-
+     Add Customer
+     Update Customer
+     Delete Customer 
+     Deposit
+     Withdrawal
+     Show Balance of specific customer
+     Display All Customer
+     Display Customer with Account number
+     Transfer Money
+
+   e. implemented one method to check if account exists or not
+
+   f. implemented one method to validate pin
+
+3. Created BankMTApp Class in com.nissan.app package for main method
+     
+  a. Created scanner for input choice
+
+  b. created instance of BankMT class
+
+  c. inside do loop created switch statements which takes different
+     case for different functions (0-9)
+
+  d. while loop to exit
